@@ -2,11 +2,11 @@ import java.math.BigDecimal;
 
 public class Main {
     public static void main(String[] args) {
+        //Scrivi un programma Java dove imposti 2 BigDecimal e 1 operazione aritmetica (Addizione, sottrazione, moltiplicazione e divisione, min e max) definita in un enum, crei un metodo per calcolare l'operazione richiesta e ritorni il risultato.
         BigDecimal numero1 = new BigDecimal("345.67");
         BigDecimal numero2 = new BigDecimal("456.78");
 
-
-
+        //Il tipo di operazione, i due dati in input e il risultato dovranno essere stampati a schermo
         System.out.println("Il risultato della moltiplicazione tra il numero " + numero1 + " e il numero " + numero2 + " è: " + Operazione(numero1, numero2, OperazioneEnum.MOLTIPLICAZIONE));
 
     }
